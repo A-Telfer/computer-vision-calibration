@@ -1,0 +1,13 @@
+name: computer-vision-calibration
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - opencv-python-headless
+    - matplotlib 
+    - numpy 
+    - pandas
+    - tqdm 
+    - ipywidgets
